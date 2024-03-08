@@ -1,0 +1,25 @@
+public class Persona {
+    private String nombre;
+    private int edad;
+
+    public Persona(String nombre, int edad) {
+        this.nombre = nombre;
+        this.edad = edad;
+    }
+
+    public void establecerNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String obtenerNombre() {
+        return this.nombre;
+    }
+
+    public void establecerEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public int obtenerEdad() {
+        return this.edad;
+    }
+}
